@@ -1,4 +1,4 @@
-# G191210014
+# WEB SİTESİ
  İÇERİK
 -
 - “Şehrim” bölümünde memleketim olan Sivas şehrini tanıtacağım.
