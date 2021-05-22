@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="still.css" type="text/css">
+    <title>İletişim</title>
+</head>
+<body>
+    <div class="cointeiner">
+
+        <div id="ust">
+            <h1>İLETİŞİM FORMU</h1>
+            <div id="menu">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a href="index.html">Anasayfa</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div><br>
+
+        <div id="iletisim">
+            <form action="process.php" method="POST">
+                <label for="name">Ad*</label> <br>
+                <input type="text" name="name" id="" required placeholder="Adınız"> <br>
+
+                <label for="surname">Soyad*</label><br>
+                <input type="text" name="surname" id="" required placeholder="Soyadınız"><br>
+
+                <label for="bd">Doğum Tarihi</label><br>
+                <input type="date" name="bd" id=""><br>
+
+                <label for="mail">E-Posta Adresi*</label><br>
+                <input type="email" name="mail" id="" required placeholder="ornek@ornek.com"><br>
+
+                <label for="number">Telefon Numarası</label><br>
+                <input type="tel" name="telnu" id="" placeholder="5XX XXX XX XX"><br><br>
+
+                <p>Cinsiyetiniz:</p>
+                <input type="radio" name="cinsiyet" id="" value="Erkek">Erkek <br>
+                <input type="radio" name="cinsiyet" id="" value="Kadın">Kadın <br><br>
+
+                <label for="message">Mesajınız*</label><br>
+                <textarea name="message" id="" cols="30" rows="10" required placeholder="Mesajınızı buraya yazınız."></textarea><br>
+                <p><i>(* ile verilen alanların doldurulması zorunludur.)</i></p>
+                <input type="submit" name="gonder" value="Gönder">
+                <input type="reset" value="Temizle">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
