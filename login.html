@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="still.css" type="text/css">
+    <title>Giriş Yap</title>
+</head>
+<body>
+    <div class="cointeiner">
+        <div id="ust">
+            <h1>Giriş Yap</h1>
+            <div id="menu">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a href="index.html">Anasayfa&emsp;</a></td>
+                            <td><a href="iletisim.html">İletişim</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="giris">
+            <form action="login.php" method="POST">
+                <label for="username">Kullanıcı Adınız:</label> <br>
+                <input type="text" name="username" id="" required placeholder="Kullanıcı Adı"> <br>
+
+                <label for="pass">Şifreniz:</label> <br>
+                <input type="password" name="pass" id="" required placeholder="Şifre"> <br> <br>
+
+                <input type="submit" value="Giriş" name="giris">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
