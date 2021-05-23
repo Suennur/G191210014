@@ -1,0 +1,161 @@
+body{
+    background-color: rgba(155, 155, 155, 0.541);
+    padding-top: 0mm;
+    margin-left: 0mm;
+    margin-right: 0mm;
+    font-size: 15px;
+}
+.slider{
+    float: center;
+    margin-bottom:0px;
+    font-size: 18px;
+    
+}
+#menu{
+    float: right;
+}
+
+#pics{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 30px;
+    background:-webkit-linear-gradient(white,rgba(126, 126, 126, 0.506));
+}
+
+#Blok{
+    width: 95%;
+}
+#giris {
+    font-size: 17px;
+    background: linear-gradient(rgba(214, 214, 214, 0.541),rgba(77, 77, 77, 0.835));
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#blok-light {
+    background-color: rgba(221, 221, 221, 0.76);;
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#blok-dark{
+    background-color: rgb(174, 175, 177);
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#satir{
+    padding-left: 5px;
+    width: 95%;
+    background-color: rgba(61, 61, 61, 0.534);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cointeiner{
+    width: 96%;
+    max-width: 1280px;
+    min-height: 1760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#ust{
+    text-align: center;
+    width: 100%;
+    color: rgb(253, 253, 253);
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 90px;
+    max-width: 1280px;
+    height: 100px;
+    background: linear-gradient(rgba(214, 214, 214, 0.541),rgba(77, 77, 77, 0.835));
+}
+aside#sol{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+    max-width: 150px;
+    height: 1000px;
+    background: linear-gradient(rgba(93, 93, 93, 0.835),rgba(129, 129, 129, 0));
+    float: left;
+}
+#icerik{
+    width: 80%;
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    text-align: left;
+    float: center;
+    max-width: 800px;
+    height: 1700px ;
+    
+}
+div#alt{
+    float: inline-end;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+    max-width: 1280px;
+    height: 50px;
+    background-color: rgba(97, 97, 97, 0.637);
+    clear: both;
+}
+a{
+    color: rgb(234, 243, 255);
+    font-size: 18px;
+}
+.block{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.block-inner{
+    width: 100%;
+    min-width: 200px;
+    height: 100%;
+    padding-top: 10px;
+    min-height: 200px;
+    background-color: gray;
+}
+@media screen and (max-width:768px){
+    .cointeiner{
+        width: 100%;
+    }
+}
+#miras{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#iletisim{
+    padding-left: 29%;
+}
+input, textarea{
+    padding: 5px 20px;
+    width: 58%;
+    border: 1px solid #7c7c7c;
+}
+input[type="submit"]{
+    width: 25%;
+}
+input[type="reset"]{
+    width: 25%;
+}
+input[type="submit"]:hover{
+    background-color: rgb(48, 85, 206);
+    color: white;
+}
+input[type="reset"]:hover{
+    background-color: rgb(128, 38, 38);
+    color: white;
+}
+
+input[type="radio"]{
+    float: left;
+    width: 30px;
+}
